@@ -49,7 +49,7 @@ class Player extends Component {
 
   playSound = () => {
     try {
-      SoundPlayer.playUrl('http://russprince.com/hobbies/files/13%20Beethoven%20-%20Fur%20Elise.mp3')
+      SoundPlayer.playUrl('https://vnso-zn-15-tf-mp3-s1-zmp3.zadn.vn/0f4b922fcc6b25357c7a/2082068600738536235?authen=exp=1547636208~acl=/0f4b922fcc6b25357c7a/*~hmac=c44c61d9fbaf6cddbfe4cd65044688d6&filename=Den-Sau-Ung-Hoang-Phuc.mp3')
     } catch (e) {
       console.log(`cannot play the sound file`, e)
     }
